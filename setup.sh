@@ -66,7 +66,7 @@ git config --global push.default simple
 git config --global user.name "freedomos"
 git config --global user.email "frazergrant345@gmail.com"
 sudo git config --system core.editor nano
-git remote set-url origin git@github.com-arc:$githubdir/$project
+git remote set-url origin https://github.com/$githubdir/$project
 
 echo
 tput setaf 3
